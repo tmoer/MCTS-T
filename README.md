@@ -1,7 +1,5 @@
 # MCTS-T
-Code for the paper 'Monte Carlo Tree Search for Asymmetric Trees'
-
-Code for reproducing key results in the paper ... by Thomas M. Moerland, Joost Broekens, Aske Plaat and Catholijn M. Jonker. 
+Code for the paper 'Monte Carlo Tree Search for Asymmetric Trees' (Arxiv) by Thomas M. Moerland, Joost Broekens, Aske Plaat and Catholijn M. Jonker. 
 
 ## Prerequisites
 1. Install recent versions of:
