@@ -27,13 +27,12 @@ The results of the paper can be reproduced by:
 cd mcts-t+
 bash jobs/paper_jobs.sh
 ``` 
-This will take quite long on a standard computer. The experiments can also be submitted to a SLURM cluster:
+This automatically loop over the necessary hyperparameters. Running it will take quite long on a regular laptop though. You can submitted the runs to a SLURM cluster via
 ```sh
-cd mcts-t+
 bash jobs/paper_jobs_slurm.sh
 ``` 
 
-## RVisualization of Results
+## Visualization of Results
 Subsequently, you can visualize the output with 
 ```sh
 cd mcts-t+
