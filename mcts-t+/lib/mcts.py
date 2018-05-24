@@ -208,7 +208,7 @@ class State():
         # update tree sigma
         if self.sigma_tree:
             # modify the counts to have a 1 for untried actions:
-            #counts = np.array([count if child_action.n > 0 else 1 for count,child_action in zip(counts,self.child_actions)]) # replace the 0 counts with 1
+            counts = np.array([count if child_action.n > 0 else 1 for count,child_action in zip(counts,self.child_actions)]) # replace the 0 counts with 1
             # collect the sigma_t
             sigma_t_actions = np.array([child_action.sigma_t for child_action in self.child_actions])
             # set the new sigma_t
