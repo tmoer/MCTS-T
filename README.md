@@ -42,7 +42,7 @@ for some your_game of your choice.
 ```
 @proceedings{moerland2018monte,
 	author = "Moerland, Thomas M and Broekens, Joost and Plaat, Aske and Jonker, Catholijn M",
-	journal = "In submission.",
+	journal = "arXiv preprint arXiv:1805.09218",
 	title = "{Monte Carlo Tree Search for Asymmetric Trees}",
 	year = "2018"
 }
